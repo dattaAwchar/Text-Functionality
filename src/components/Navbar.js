@@ -26,9 +26,9 @@ export default function Navbar(props) {
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" to="/">Home</Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" aria-current="page" to="/about">{props.aboutText}</Link>
-            </li>
+            </li> */}
           </ul>
           <div className="d-flex">
             <div className="bg-primary rounded mx-1" onClick={() => { props.toggleMode('primary') }} style={toggleStyle()}></div>
